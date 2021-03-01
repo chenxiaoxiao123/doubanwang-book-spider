@@ -18,10 +18,12 @@ Python所写，豆瓣读书的爬虫，方便大家搜罗各种美美书！
 3 存储到Excel中，可方便大家筛选搜罗，比如筛选评价人数>1000的高分书籍；可依据不同的主题存储到Excel不同的Sheet 
 
 4 采用User Agent伪装为浏览器进行爬取，并加入随机延时来更好的模仿浏览器行为，避免爬虫被封（更新于 2015-5-20）
+5 将数据存储在MySQL中
 
 
 #运行条件：
 python 3.6
+mysql
 import sys
 import time
 import urllib
